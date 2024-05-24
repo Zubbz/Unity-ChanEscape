@@ -192,7 +192,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 113740406}
-  m_LocalRotation: {x: 0.12218324, y: 0.000000017077465, z: -0.0000000021023314, w: 0.9925076}
+  m_LocalRotation: {x: 0.12218325, y: 0.000000017077465, z: -0.0000000021023316, w: 0.9925076}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -502,7 +502,7 @@ MonoBehaviour:
     m_DecelTime: 0.1
     m_InputAxisName: Mouse Y
     m_InputAxisValue: 0
-    m_InvertInput: 0
+    m_InvertInput: 1
     m_MinValue: 0
     m_MaxValue: 1
     m_Wrap: 0
@@ -526,7 +526,7 @@ MonoBehaviour:
     m_DecelTime: 0.1
     m_InputAxisName: Mouse X
     m_InputAxisValue: 0
-    m_InvertInput: 1
+    m_InvertInput: 0
     m_MinValue: -180
     m_MaxValue: 180
     m_Wrap: 1
@@ -1212,7 +1212,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-41014
+  m_Name: pb_Mesh44588
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1447,7 +1447,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.01818, y: -0.03229693, z: -0.0005875619, w: 0.9993128}
+  m_LocalRotation: {x: -0.018179988, y: -0.032315742, z: -0.0005879042, w: 0.9993122}
   m_LocalPosition: {x: 0, y: 1.2639999, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1510,6 +1510,7 @@ MonoBehaviour:
   charSpeed: 5
   turnSmoothTime: 0.1
   cam: {fileID: 963194228}
+  charAnimationScript: {fileID: 1474041838}
 --- !u!143 &1474041834
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1531,6 +1532,25 @@ CharacterController:
 --- !u!4 &1474041837 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400096, guid: 412b92d4feeb9c548bfa98f62c4d1022, type: 3}
+  m_PrefabInstance: {fileID: 321953231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1474041838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474041832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 549a885086ffd2341a9ea2bd475ecd6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charAnimation: {fileID: 1474041840}
+  animationSpeed: 0
+--- !u!95 &1474041840 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 412b92d4feeb9c548bfa98f62c4d1022, type: 3}
   m_PrefabInstance: {fileID: 321953231}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1522896964
@@ -1883,7 +1903,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh44570
+  m_Name: pb_Mesh44642
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2110,7 +2130,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1790730967}
-  m_LocalRotation: {x: -0.018179996, y: -0.03229693, z: -0.0005875618, w: 0.9993128}
+  m_LocalRotation: {x: -0.018179988, y: -0.032315735, z: -0.00058790395, w: 0.9993122}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
